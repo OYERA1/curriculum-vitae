@@ -4,6 +4,10 @@
 
 @layer components {
 	.contain {
-		@apply max-w-screen-lg flex w-full;
+		@apply max-w-screen-md flex w-full;
+	}
+
+	.title {
+		@apply text-lg font-semibold underline mb-2;
 	}
 }

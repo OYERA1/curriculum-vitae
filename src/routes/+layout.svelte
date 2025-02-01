@@ -7,10 +7,9 @@ const { children } = $props();
 
 
 
-<main class="[&>div]:px-2 [&>div]:w-full [&>div]:py-3 bg-background min-h-screen h-max items-center relative flex flex-col">
+<main class="relative py-20 [&>div]:px-2 text-muted [&>div]:w-full [&>div]:py-3 bg-background min-h-screen h-max items-center flex flex-col">
 	<Header/>
-	<hr class="border-muted/15 w-full">
-	<div class="contain">
+	<div class="contain flex-col gap-2">
 		{@render children()}
 	</div>
 </main>

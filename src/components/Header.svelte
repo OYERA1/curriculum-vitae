@@ -10,9 +10,10 @@ import Mail from "../icon/Mail.svelte";
 
 
   
-<div class="contain justify-between items-center text-muted">
+<div class="fixed top-0 w-full bg-neutral-900 flex items-center justify-center backdrop-blur-sm bg-opacity-60 border-b border-muted/15 text-muted">
+    <div class="contain py-2 justify-between items-center">
         <a  href="/" class="">
-            <h1 class="flex flex-col underline hover:text-white duration-200 transition-all ease-in-out">
+            <h1 class="flex font-semibold flex-col underline hover:text-white duration-200 transition-all ease-in-out">
                 oyera.dev
             </h1>
         </a>
@@ -34,5 +35,7 @@ import Mail from "../icon/Mail.svelte";
                 Ø
             </a>
         </div>
+        </div>
+        
     </div>
         

@@ -2,11 +2,10 @@
 import Badge from "./Badge.svelte";
 </script>
 
-<div class="w-full flex gap-5 items-start text-muted font-medium text-lg p-5 backdrop-blur-sm">
+<div class="w-full flex gap-5 items-start text-muted font-medium text-lg py-5 border-b border-muted/15">
     <img src="https://github.com/oyera1.png" width="85" alt="" class="rounded-full">
     <div class="flex flex-col gap-3">
         <div>
-
             <h1 class="">
                 Luan Henrique Oyera Chiacherini
             </h1>
