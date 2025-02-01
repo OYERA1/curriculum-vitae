@@ -1,3 +1,6 @@
-<div>
+<script>
+import Resume from "../components/Resume.svelte";
+</script>
 
-</div>
+
+<Resume/>
