@@ -12,8 +12,6 @@ COPY . .
 
 RUN bun run build
 
-RUN bun prune --production
-
 FROM base AS prod
 
 WORKDIR /app
