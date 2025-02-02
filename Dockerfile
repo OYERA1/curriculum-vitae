@@ -23,4 +23,4 @@ COPY package.json .
 EXPOSE 3001
 ENV NODE_ENV=production
 
-CMD ["PORT=3001","bun", './build']
+CMD ["PORT=3001", "bun", "./build"]
