@@ -4,7 +4,7 @@
 
 @layer components {
 	.contain {
-		@apply max-w-screen-md flex w-full;
+		@apply px-5 md:px-0 md:max-w-screen-md flex w-full;
 	}
 
 	.title {

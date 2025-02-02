@@ -6,7 +6,7 @@ import ListHeader from "./ListHeader.svelte";
 const { props }: { props: List } = $props();
 </script>
 
-<li class="flex gap-5 justify-between">   
+<li class="flex flex-col md:flex-row gap-5 justify-between">   
     <ListDate final={props.finalDate} start={props.startDate}/>
     <div class="flex flex-col gap-5">
             <ListHeader props={{...props}}  />

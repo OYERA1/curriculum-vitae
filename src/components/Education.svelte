@@ -2,7 +2,7 @@
 import { education } from "../constants/education-data";
 import List from "./List.svelte";
 </script>
-<div class="py-5">
+<div class="px-5 py-5 md:px-0">
     <h3 class="title">
         Educação
     </h3>
