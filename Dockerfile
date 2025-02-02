@@ -4,7 +4,7 @@ WORKDIR /app
 
 FROM base AS build
 
-COPY package.json bun.lock ./
+COPY package.json bun.lockb ./
 
 RUN bun i --frozen-lockfile
 
@@ -14,7 +14,7 @@ RUN bun run build
 
 RUN bun prune --production
 
-FROM base as prod
+FROM base AS prod
 
 WORKDIR /app
 
