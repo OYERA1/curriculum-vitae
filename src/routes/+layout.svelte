@@ -1,5 +1,6 @@
 <script lang="ts">
 import "../app.css";
+import Footer from "../components/Footer.svelte";
 import Header from "../components/Header.svelte";
 
 const { children } = $props();
@@ -12,5 +13,6 @@ const { children } = $props();
 	<div class="contain flex-col gap-2">
 		{@render children()}
 	</div>
+	<Footer/>
 </main>
 
