@@ -1,7 +1,7 @@
 <div class="px-5 py-5 md:px-0">
-    <h3 class="title">
+    <h1 class="title">
         Sobre
-    </h3>
+    </h1>
     <p class="border-b border-neutral-600/40 pb-5 text-justify">
         Desenvolvedor Full-Stack ⬩ Grande experiência em aplicações Node e React
         <br>
