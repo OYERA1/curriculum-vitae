@@ -22,7 +22,7 @@
    "@type": "Website",
    "name": "${title} | Curriculum Oyera",
    "url": "https//cv.oyera.dev",
-   "logo": 🐭 }</script>`}
+   "logo": "🐭" }</script>`}
 </svelte:head>
 
 <div
