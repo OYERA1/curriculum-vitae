@@ -11,6 +11,7 @@
   <h2 class="font-semibold">
     {title}
   </h2>
+
   <h3>
     - {institute}
   </h3>

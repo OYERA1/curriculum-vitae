@@ -1,2 +1,4 @@
 interface Project
-	extends Omit<List, "institute" | "startDate" | "finalDate" | "city" | "uf"> {}
+	extends Omit<List, "institute" | "startDate" | "finalDate" | "city" | "uf"> {
+	link?: string;
+}
